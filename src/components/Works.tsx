@@ -1,7 +1,11 @@
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <div className="holographic-container">
+      <div className="holographic-card">
+        <h2>Works</h2>
+      </div>
+    </div>
   )
 }
 

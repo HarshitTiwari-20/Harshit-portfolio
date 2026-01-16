@@ -18,27 +18,24 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #434343,
+      #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #434343,
+      #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+  background: -webkit-linear-gradient(-90deg,
+      #804dee 0%,
+      rgba(60, 51, 80, 0) 100%);
 }
 
 .green-pink-gradient {
@@ -48,66 +45,62 @@
 }
 
 .orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #f12711,
-    #f5af19
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #f12711,
-    #f5af19
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #f12711;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #f12711,
+      #f5af19);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #f12711,
+      #f5af19);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .green-text-gradient {
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #11998e,
-    #38ef7d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #11998e,
-    #38ef7d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #11998e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #11998e,
+      #38ef7d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #11998e,
+      #38ef7d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #2f80ed,
-    #56ccf2
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #2f80ed,
-    #56ccf2
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #56ccf2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #2f80ed,
+      #56ccf2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #2f80ed,
+      #56ccf2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pink-text-gradient {
-  background: #ec008c; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #ec008c,
-    #fc6767
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #ec008c,
-    #fc6767
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ec008c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #ec008c,
+      #fc6767);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #ec008c,
+      #fc6767);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -125,6 +118,7 @@
 }
 
 @keyframes mulShdSpin {
+
   0%,
   100% {
     box-shadow: 0em -2.6em 0em 0em #ffffff,
@@ -136,6 +130,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
   }
+
   12.5% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
       1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
@@ -145,6 +140,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
   }
+
   25% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em #ffffff,
@@ -154,6 +150,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
+
   37.5% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5),
@@ -163,6 +160,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
+
   50% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
@@ -172,6 +170,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
+
   62.5% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
@@ -181,6 +180,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
+
   75% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
@@ -190,6 +190,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em #ffffff,
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
   }
+
   87.5% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
@@ -199,4 +200,135 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.hover-underline {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+
+.holographic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+
+/* ================================================================================= */
+
+.holographic-card {
+  width: 300px;
+  height: 200px;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.holographic-card h2 {
+  color: #0ff;
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.holographic-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(0deg,
+      transparent,
+      transparent 30%,
+      rgba(0, 255, 255, 0.3));
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+/* ================================================================================= */ 
+
+.holographic-nav-item {
+  background: #111;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  padding: 8px 16px;
+}
+
+.holographic-nav-item h2,
+.holographic-nav-item a {
+  position: relative;
+  z-index: 2;
+}
+
+.holographic-nav-item::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(0deg,
+      transparent,
+      transparent 30%,
+      rgba(0, 255, 255, 0.3));
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.holographic-nav-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.holographic-nav-item:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
 }
