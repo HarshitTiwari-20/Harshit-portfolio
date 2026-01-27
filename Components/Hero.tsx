@@ -25,15 +25,18 @@ export default function Hero() {
                     <h2 className=" uppercase tracking-widest  text-center text-blue-100 mx-w-80  text-2xl underline">
                         Hi, I&apos;m Harshit
                     </h2>
-                     <p className="text-center py-10 md:tracking-wider mb text-sm md:text-lg lg:text-2xl">
-                        A web developer and system based projects developer.
+                   
+                    <TextGenerateEffect
+                        words="Building Modern Web & System-Level Solutions"
+                        className="text-center text-2xl md:text-2xl lg:text-4xl pb-1"
+                    />
+
+                    <p className="text-center py-10 md:tracking-wider font-bold md:text-xl lg:text-2xl">
+                        A Full Stack Developer passionate about high-performance web applications and system-level engineering
                     </p>
                 </div>
             </div>
-            <TextGenerateEffect
-                words="Building Web based and System Based Projects ."
-                className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            />
+            
 
             <a href="#about" className="flex justify-center">
                 <MagicButton
