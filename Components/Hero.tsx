@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/magicbutton";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Hero() {
     return (
@@ -14,15 +15,13 @@ export default function Hero() {
 
             </div>
             <div className="absolute top-0 left-0 flex h-screen w-full items-center justify-center bg-white dark:bg-black-100  dark:bg-grid-white/[0.02] bg-grid-black-100/[0.02]">
-
-
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-
             </div>
-
-            <div className=" flex justify-center relative my-20 z-10 ">
+        
+            <div className=" flex justify-center relative my-0 z-10 md:py-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                    <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 underline">
+                    <Image src="/hero-icon.png" alt="hero" width={500} height={500} className="w-100 h-100 object-cover rounded-full  mb-10" />
+                    <h2 className="uppercase tracking-widest text-xl text-center text-blue-100 max-w-80 underline">
                         Hi, I&apos;m Harshit
                     </h2>
 
@@ -38,14 +37,16 @@ export default function Hero() {
             </div>
 
 
-            <a href="#about" className="flex justify-center">
-                <MagicButton
-                    title="My Projects"
-                    position="right"
-                    icon={<FaLocationArrow />}
+            <div className="md:py-5">
+                <a href="#about" className="flex justify-center ">
+                    <MagicButton
+                        title="My Projects"
+                        position="right"
+                        icon={<FaLocationArrow />}
 
-                />
-            </a>
+                    />
+                </a>
+            </div>
 
 
         </div>
