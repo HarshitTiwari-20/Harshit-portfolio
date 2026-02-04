@@ -1,10 +1,26 @@
+import { FaHome, FaUser, FaRProject, FaFileContract } from "react-icons/fa";
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
-
+  {
+    name: "Home",
+    link: "#home",
+    icon: <FaHome />,
+  },
+  {
+    name: "About",
+    link: "#about",
+    icon: <FaUser />,
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+    icon: <FaRProject />,
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+    icon: <FaFileContract />,
+  },
+]
 
 
 export const gridItems = [
