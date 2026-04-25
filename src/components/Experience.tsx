@@ -5,21 +5,21 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Senior Full Stack Engineer",
-    company: "TechNova Solutions",
+    role: " Full Stack Engineer",
+    company: "Freelancer",
     period: "2022 - Present",
-    description: "Architected microservices infrastructure handling 1M+ daily requests. Led the migration to Next.js 14, improving LCP by 40%. Implemented secure smart contract integrations for Web3 features.",
+    description: "Architected microservices infrastructure . Led the migration to Next.js 14, improving LCP by 40%. Implemented secure smart contract integrations for Web3 features.",
   },
   {
     role: "DevOps Engineer",
-    company: "CloudScale Inc.",
-    period: "2020 - 2022",
+    company: "Personal Project",
+    period: "2025 - Present",
     description: "Designed multi-region Kubernetes clusters. Automated CI/CD pipelines reducing deployment times by 70%. Managed AWS infrastructure via Terraform.",
   },
   {
-    role: "Frontend Developer",
-    company: "Creative Web Agency",
-    period: "2019 - 2020",
+    role: "Particapant in 10+ Hackathons",
+    company: "Various",
+    period: "2023 - Present",
     description: "Built pixel-perfect, responsive UI components using React and Tailwind. Integrated complex animations with Framer Motion for high-impact marketing sites.",
   },
 ];
