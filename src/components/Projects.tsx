@@ -7,14 +7,14 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "DeFi Yield Aggregator",
-    description: "A decentralized finance platform that automatically moves funds across different lending protocols to secure the best yields.",
+    title: "DeFi Trading App",
+    description: "A decentralized trading platform that automatically lock-in funds in crowdfund when it opens the position and returns the remaining funds after the position closes",
     tech: ["Next.js", "Solidity", "Hardhat", "Tailwind", "Ethers.js"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/HarshitTiwari-20/Traderm",
+    demo: "https://traderm.vercel.app/",
   },
   {
-    title: "Cloud Infrastructure Dashboard",
+    title: "",
     description: "Real-time AWS/GCP resource monitoring dashboard utilizing WebSockets for live metrics and anomalous activity alerts.",
     tech: ["React", "Node.js", "Docker", "Prometheus", "Grafana"],
     github: "https://github.com",
@@ -24,8 +24,8 @@ const projects = [
     title: "NFT Marketplace MVP",
     description: "Launchpad and marketplace for verified NFT artists. Features gasless transactions via meta-transactions and lazy minting.",
     tech: ["Next.js", "Polygon", "IPFS", "Prisma", "TypeScript"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/HarshitTiwari-20/pokemon-nfts",
+    demo: "https://pokemon-nfts.vercel.app/",
   },
   {
     title: "Automated Deployment Pipeline AI",
