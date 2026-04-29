@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Harshit | Full Stack & Web3 Developer",
   description: "Portfolio of Harshit, a Full Stack Developer, DevOps Engineer, and Web3 Developer building scalable solutions.",
+  icons: {
+    icon: "/harshit-logo-Photoroom.png",
+  },
 };
 
 export default function RootLayout({

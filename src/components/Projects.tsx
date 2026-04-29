@@ -67,7 +67,7 @@ export default function Projects() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-             <Link href="https://github.com" target="_blank" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+             <Link href="https://github.com/HarshitTiwari-20" target="_blank" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                <span>View Full Github</span>
                <ArrowRightIcon className="w-4 h-4" />
              </Link>

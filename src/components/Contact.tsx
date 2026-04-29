@@ -75,12 +75,14 @@ export default function Contact() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-[#0ff]/5 to-[#b026ff]/5 rounded-3xl pointer-events-none" />
             
-            <form className="relative z-10 space-y-6" onSubmit={(e) => e.preventDefault()}>
+            <form className="relative z-10 space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-400">Name</label>
                   <input 
                     type="text" 
+                    name="name"
+                    required
                     placeholder="John Doe" 
                     className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:border-[var(--color-brand-cyan)] transition-colors"
                   />
@@ -89,6 +91,8 @@ export default function Contact() {
                   <label className="text-sm font-medium text-gray-400">Email</label>
                   <input 
                     type="email" 
+                    name="email"
+                    required
                     placeholder="john@example.com" 
                     className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:border-[var(--color-brand-cyan)] transition-colors"
                   />
@@ -98,6 +102,8 @@ export default function Contact() {
                 <label className="text-sm font-medium text-gray-400">Subject</label>
                 <input 
                   type="text" 
+                  name="subject"
+                  required
                   placeholder="Project Inquiry" 
                   className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:border-[var(--color-brand-cyan)] transition-colors"
                 />
@@ -106,16 +112,17 @@ export default function Contact() {
                 <label className="text-sm font-medium text-gray-400">Message</label>
                 <textarea 
                   rows={4}
+                  name="message"
+                  required
                   placeholder="Tell me about your project..." 
                   className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-600 focus:outline-none focus:border-[var(--color-brand-cyan)] transition-colors resize-none"
                 />
               </div>
               
-              <button className="w-full relative group py-4 px-8 rounded-xl bg-white text-black font-semibold overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98]">
-                <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-brand-cyan)] to-[var(--color-brand-purple)] opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+              <button disabled={loading} className="w-full relative group py-4 rounded-xl bg-white text-black font-semibold overflow-hidden hover:scale-[1.02] transition-all disabled:opacity-50">
                 <span className="relative flex items-center justify-center gap-2">
-                  Send Message
-                  <Send className="w-4 h-4 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
+                  {loading ? "Sending..." : "Send Message"}
+                  <Send className="w-4 h-4" />
                 </span>
               </button>
             </form>
@@ -151,8 +158,9 @@ export default function Contact() {
                 </a>
                 
                 <a 
-                  href="/resume.pdf" 
-                  download="Harshit_Tiwari.pdf"
+                  href="https://drive.google.com/file/d/1fh9WiqgnntRtz_hzI3l5Cr891rzliB4f/view?usp=sharing" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 group"
                 >
                   <div className="w-12 h-12 glass rounded-full flex items-center justify-center border border-white/10 group-hover:border-[var(--color-brand-purple)] transition-colors">

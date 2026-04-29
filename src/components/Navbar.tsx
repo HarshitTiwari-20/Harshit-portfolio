@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Code2 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -38,8 +39,14 @@ export default function Navbar() {
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex items-center justify-between">
           <Link href="#home" className="flex items-center gap-2 group">
-            <div className="p-2 glass rounded-lg group-hover:border-[var(--color-brand-cyan)] transition-colors duration-300">
-              <Code2 className="w-5 h-5 text-gradient" />
+            <div className="p-1 glass rounded-lg group-hover:border-[var(--color-brand-cyan)] transition-colors duration-300">
+              <Image 
+                src="/harshit-logo-Photoroom.png" 
+                alt="Harshit Logo" 
+                width={32} 
+                height={32} 
+                className="w-8 h-8 object-contain"
+              />
             </div>
             <span className="font-bold text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-brand-cyan)] to-[var(--color-brand-purple)]">
               HARSHIT
