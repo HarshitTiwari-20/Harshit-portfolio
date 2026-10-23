@@ -158,7 +158,7 @@ export default function Contact() {
                 </a>
                 
                 <a 
-                  href="https://drive.google.com/file/d/1fh9WiqgnntRtz_hzI3l5Cr891rzliB4f/view?usp=sharing" 
+                  href="https://raw.githubusercontent.com/HarshitTiwari-20/Harshit-portfolio/main/public/Harshit_Tiwari.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 group"
